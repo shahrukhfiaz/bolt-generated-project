@@ -1,0 +1,21 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://isitdownchecker.com/sitemap.xml
+
+# Disallow crawling of authentication pages
+Disallow: /login
+Disallow: /register
+Disallow: /reset-password
+Disallow: /dashboard
+
+# Allow crawling of API documentation
+Allow: /api
+
+# Allow crawling of uptime monitor
+Allow: /uptime
+
+# Allow crawling of outage map
+Allow: /outage-map

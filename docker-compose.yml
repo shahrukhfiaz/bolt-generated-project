@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  website-status-checker:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+    restart: unless-stopped
